@@ -1,0 +1,331 @@
+local RageWare = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local TextLabel = Instance.new("TextLabel")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local ExecButton = Instance.new("TextButton")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local Minimize = Instance.new("TextButton")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local ClearButton = Instance.new("TextButton")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_2 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local Toggle = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local Loader = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_4 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+local TextBox_2 = Instance.new("TextBox")
+local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
+local Authenticate = Instance.new("TextButton")
+local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_5 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
+
+--Properties:
+
+RageWare.Name = "RageWare"
+RageWare.Parent = game.Workspace
+RageWare.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+RageWare.ResetOnSpawn = false
+
+Main.Name = "Main"
+Main.Parent = RageWare
+Main.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.201396972, 0, 0.148148149, 0)
+Main.Size = UDim2.new(0.597206056, 0, 0.703703701, 0)
+Main.Visible = false
+
+TextBox.Parent = Main
+TextBox.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.015594542, 0, 0.353801161, 0)
+TextBox.Size = UDim2.new(0.968810916, 0, 0.488304108, 0)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.PlaceholderText = "RageWare is still on beta, expect some bugs."
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 18.000
+TextBox.TextWrapped = true
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+UIAspectRatioConstraint.Parent = TextBox
+UIAspectRatioConstraint.AspectRatio = 2.976
+
+TextLabel.Parent = Main
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0370370373, 0, 0.0847953185, 0)
+TextLabel.Size = UDim2.new(0.454191029, 0, 0.207602337, 0)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "RageWare"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UIAspectRatioConstraint_2.Parent = TextLabel
+UIAspectRatioConstraint_2.AspectRatio = 3.282
+
+ExecButton.Name = "ExecButton"
+ExecButton.Parent = Main
+ExecButton.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+ExecButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ExecButton.BorderSizePixel = 0
+ExecButton.Position = UDim2.new(0.015594542, 0, 0.871345043, 0)
+ExecButton.Size = UDim2.new(0.292397648, 0, 0.105263159, 0)
+ExecButton.Font = Enum.Font.Gotham
+ExecButton.Text = "Execute"
+ExecButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ExecButton.TextSize = 14.000
+ExecButton.MouseButton1Down:Connect(function()
+	print("Current identity is 8.")
+end)
+
+UIAspectRatioConstraint_3.Parent = ExecButton
+UIAspectRatioConstraint_3.AspectRatio = 4.167
+
+Minimize.Name = "Minimize"
+Minimize.Parent = Main
+Minimize.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Minimize.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Minimize.BorderSizePixel = 0
+Minimize.Position = UDim2.new(0.69395709, 0, 0.871345043, 0)
+Minimize.Size = UDim2.new(0.290448338, 0, 0.105263159, 0)
+Minimize.Font = Enum.Font.Gotham
+Minimize.Text = "Script Hub (W.I.P)"
+Minimize.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimize.TextSize = 14.000
+
+UIAspectRatioConstraint_4.Parent = Minimize
+UIAspectRatioConstraint_4.AspectRatio = 4.139
+
+ClearButton.Name = "ClearButton"
+ClearButton.Parent = Main
+ClearButton.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+ClearButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ClearButton.BorderSizePixel = 0
+ClearButton.Position = UDim2.new(0.348927885, 0, 0.871345043, 0)
+ClearButton.Size = UDim2.new(0.300194919, 0, 0.105263159, 0)
+ClearButton.Font = Enum.Font.Gotham
+ClearButton.Text = "Clear"
+ClearButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ClearButton.TextSize = 14.000
+ClearButton.TextWrapped = true
+ClearButton.MouseButton1Down:Connect(function()
+	TextBox.Text = ""
+end)
+
+UIAspectRatioConstraint_5.Parent = ClearButton
+UIAspectRatioConstraint_5.AspectRatio = 4.278
+
+TextLabel_2.Parent = Main
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.791423023, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0.208576992, 0, 0.0584795326, 0)
+TextLabel_2.Font = Enum.Font.GothamBold
+TextLabel_2.Text = "beta | v0.2"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UIAspectRatioConstraint_6.Parent = TextLabel_2
+UIAspectRatioConstraint_6.AspectRatio = 5.350
+
+UIAspectRatioConstraint_7.Parent = Main
+UIAspectRatioConstraint_7.AspectRatio = 1.500
+
+Toggle.Name = "Toggle"
+Toggle.Parent = RageWare
+Toggle.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Toggle.BackgroundTransparency = 0.500
+Toggle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Toggle.BorderSizePixel = 0
+Toggle.Position = UDim2.new(0.185098946, 0, 0.0349794254, 0)
+Toggle.Size = UDim2.new(0.0454016291, 0, 0.0781892985, 0)
+Toggle.Visible = false
+Toggle.Font = Enum.Font.Gotham
+Toggle.Text = "RW"
+Toggle.TextColor3 = Color3.fromRGB(255, 255, 255)
+Toggle.TextScaled = true
+Toggle.TextSize = 14.000
+Toggle.TextWrapped = true
+
+UICorner.Parent = Toggle
+
+UIAspectRatioConstraint_8.Parent = Toggle
+UIAspectRatioConstraint_8.AspectRatio = 1.026
+
+Loader.Name = "Loader"
+Loader.Parent = RageWare
+Loader.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Loader.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Loader.BorderSizePixel = 0
+Loader.Position = UDim2.new(0.33760187, 0, 0.234567896, 0)
+Loader.Size = UDim2.new(0.323632121, 0, 0.528806567, 0)
+
+TextLabel_3.Parent = Loader
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.0935251787, 0, 0.0622568093, 0)
+TextLabel_3.Size = UDim2.new(0.816546738, 0, 0.299610883, 0)
+TextLabel_3.Font = Enum.Font.GothamBold
+TextLabel_3.Text = "RageWare"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+UIAspectRatioConstraint_9.Parent = TextLabel_3
+UIAspectRatioConstraint_9.AspectRatio = 2.948
+
+TextLabel_4.Parent = Loader
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.0287769791, 0, 0.315175086, 0)
+TextLabel_4.Size = UDim2.new(0.942446053, 0, 0.0817120597, 0)
+TextLabel_4.Font = Enum.Font.GothamBold
+TextLabel_4.Text = "\"Emotion in lua.\""
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+UIAspectRatioConstraint_10.Parent = TextLabel_4
+UIAspectRatioConstraint_10.AspectRatio = 12.476
+
+TextBox_2.Parent = Loader
+TextBox_2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+TextBox_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_2.BorderSizePixel = 0
+TextBox_2.Position = UDim2.new(0.0683453232, 0, 0.486381322, 0)
+TextBox_2.Size = UDim2.new(0.866906464, 0, 0.101167314, 0)
+TextBox_2.Font = Enum.Font.Gotham
+TextBox_2.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.PlaceholderText = "Enter Authentication Key"
+TextBox_2.Text = ""
+TextBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.TextSize = 14.000
+TextBox_2.TextWrapped = true
+TextBox_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UIAspectRatioConstraint_11.Parent = TextBox_2
+UIAspectRatioConstraint_11.AspectRatio = 9.269
+
+Authenticate.Name = "Authenticate"
+Authenticate.Parent = Loader
+Authenticate.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+Authenticate.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Authenticate.BorderSizePixel = 0
+Authenticate.Position = UDim2.new(0.0863309354, 0, 0.785992205, 0)
+Authenticate.Size = UDim2.new(0.83093524, 0, 0.101167314, 0)
+Authenticate.Font = Enum.Font.Gotham
+Authenticate.Text = "Enter"
+Authenticate.TextColor3 = Color3.fromRGB(255, 255, 255)
+Authenticate.TextSize = 14.000
+Authenticate.TextWrapped = true
+Authenticate.MouseButton1Down:Connect(function()
+	Toggle.Visible = true
+end)
+
+UIAspectRatioConstraint_12.Parent = Authenticate
+UIAspectRatioConstraint_12.AspectRatio = 8.885
+
+TextLabel_5.Parent = Loader
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.0683453232, 0, 0.61867702, 0)
+TextLabel_5.Size = UDim2.new(0.866906464, 0, 0.108949415, 0)
+TextLabel_5.Font = Enum.Font.GothamBold
+TextLabel_5.Text = "Don't have a key? Purchase it at our server."
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+UIAspectRatioConstraint_13.Parent = TextLabel_5
+UIAspectRatioConstraint_13.AspectRatio = 8.607
+
+UIAspectRatioConstraint_14.Parent = Loader
+UIAspectRatioConstraint_14.AspectRatio = 1.082
+
+-- Scripts:
+
+local function BEVCEGQ_fake_script() -- Main.Dragify 
+	local script = Instance.new('LocalScript', Main)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(BEVCEGQ_fake_script)()
+local function NPVXH_fake_script() -- Toggle.LocalScript 
+	local script = Instance.new('LocalScript', Toggle)
+
+	local frame = script.Parent.Parent.Main
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		frame.Visible = not frame.Visible
+	end)
+end
+coroutine.wrap(NPVXH_fake_script)()
