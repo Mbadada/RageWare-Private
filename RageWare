@@ -32,7 +32,7 @@ local UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
 --Properties:
 
 RageWare.Name = "RageWare"
-RageWare.Parent = game.Workspace
+RageWare.Parent = game.CoreGui
 RageWare.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 RageWare.ResetOnSpawn = false
 
