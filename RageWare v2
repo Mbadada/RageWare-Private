@@ -1,0 +1,223 @@
+local RageWare = Instance.new("ScreenGui")
+local Menu = Instance.new("ImageButton")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local Main = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local Version = Instance.new("TextLabel")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local ScriptBox = Instance.new("TextBox")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local Execute = Instance.new("TextButton")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local Clear = Instance.new("TextButton")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+
+--Properties:
+
+RageWare.Name = "RageWare"
+RageWare.Parent = game.CoreGui
+RageWare.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+RageWare.ResetOnSpawn = false
+
+Menu.Name = "Menu"
+Menu.Parent = RageWare
+Menu.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Menu.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Menu.BorderSizePixel = 0
+Menu.Position = UDim2.new(0.471411914, 0, 0.0802469105, 0)
+Menu.Size = UDim2.new(0.0571761951, 0, 0.102880657, 0)
+Menu.Image = "rbxassetid://11570895459"
+Menu.ImageColor3 = Color3.fromRGB(255, 0, 0)
+
+UICorner.CornerRadius = UDim.new(1, 0)
+UICorner.Parent = Menu
+
+TextLabel.Parent = Menu
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.181348532, 0, 0.200512692, 0)
+TextLabel.Size = UDim2.new(0.612244904, 0, 0.560000002, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Rw"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UIAspectRatioConstraint.Parent = TextLabel
+UIAspectRatioConstraint.AspectRatio = 1.071
+
+UIAspectRatioConstraint_2.Parent = Menu
+UIAspectRatioConstraint_2.AspectRatio = 0.980
+
+Main.Name = "Main"
+Main.Parent = RageWare
+Main.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.261376888, 0, 0.269547313, 0)
+Main.Size = UDim2.new(0.473745614, 0, 0.555555582, 0)
+Main.Visible = false
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.0492611602, 0, 0, 0)
+Title.Size = UDim2.new(0.512315273, 0, 0.233333334, 0)
+Title.Font = Enum.Font.SourceSansBold
+Title.Text = "RageWare"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+UIAspectRatioConstraint_3.Parent = Title
+UIAspectRatioConstraint_3.AspectRatio = 3.302
+
+Version.Name = "Version"
+Version.Parent = Main
+Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version.BackgroundTransparency = 1.000
+Version.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Version.BorderSizePixel = 0
+Version.Position = UDim2.new(0.549261093, 0, 0, 0)
+Version.Size = UDim2.new(0.450738907, 0, 0.0925925896, 0)
+Version.Font = Enum.Font.SourceSansBold
+Version.Text = "Beta | v2.1"
+Version.TextColor3 = Color3.fromRGB(255, 255, 255)
+Version.TextScaled = true
+Version.TextSize = 14.000
+Version.TextWrapped = true
+Version.TextXAlignment = Enum.TextXAlignment.Right
+
+UIAspectRatioConstraint_4.Parent = Version
+UIAspectRatioConstraint_4.AspectRatio = 7.320
+
+ScriptBox.Name = "ScriptBox"
+ScriptBox.Parent = Main
+ScriptBox.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+ScriptBox.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ScriptBox.Position = UDim2.new(0.024630541, 0, 0.233333334, 0)
+ScriptBox.Size = UDim2.new(0.955665052, 0, 0.59629631, 0)
+ScriptBox.Font = Enum.Font.SourceSans
+ScriptBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+ScriptBox.Text = ""
+ScriptBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptBox.TextSize = 14.000
+
+UIAspectRatioConstraint_5.Parent = ScriptBox
+UIAspectRatioConstraint_5.AspectRatio = 2.410
+
+Execute.Name = "Execute"
+Execute.Parent = Main
+Execute.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+Execute.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Execute.Position = UDim2.new(0.024630541, 0, 0.859259248, 0)
+Execute.Size = UDim2.new(0.418719202, 0, 0.0962962955, 0)
+Execute.Font = Enum.Font.SourceSans
+Execute.Text = "Execute"
+Execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execute.TextSize = 14.000
+
+UIAspectRatioConstraint_6.Parent = Execute
+UIAspectRatioConstraint_6.AspectRatio = 6.538
+
+Clear.Name = "Clear"
+Clear.Parent = Main
+Clear.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+Clear.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Clear.Position = UDim2.new(0.561576366, 0, 0.859259248, 0)
+Clear.Size = UDim2.new(0.418719202, 0, 0.0962962955, 0)
+Clear.Font = Enum.Font.SourceSans
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+Clear.TextSize = 14.000
+
+UIAspectRatioConstraint_7.Parent = Clear
+UIAspectRatioConstraint_7.AspectRatio = 6.538
+
+UIAspectRatioConstraint_8.Parent = Main
+UIAspectRatioConstraint_8.AspectRatio = 1.504
+
+-- Scripts:
+
+local function AZITUN_fake_script() -- Menu.LocalScript 
+	local script = Instance.new('LocalScript', Menu)
+
+	local main = script.Parent.Parent.Main
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		main.Visible = not main.Visible
+	end)
+end
+coroutine.wrap(AZITUN_fake_script)()
+local function IAJSY_fake_script() -- Execute.LocalScript 
+	local script = Instance.new('LocalScript', Execute)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(script.Parent.Parent.ScriptBox.Text)()
+	end)
+end
+coroutine.wrap(IAJSY_fake_script)()
+local function UCXTIO_fake_script() -- Clear.LocalScript 
+	local script = Instance.new('LocalScript', Clear)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.ScriptBox.Text = ""
+	end)
+end
+coroutine.wrap(UCXTIO_fake_script)()
+local function PULNKY_fake_script() -- Main.Dragify 
+	local script = Instance.new('LocalScript', Main)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(PULNKY_fake_script)()
